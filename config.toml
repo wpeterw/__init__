@@ -1,11 +1,10 @@
 baseURL = "http://www.dunderin.it"
 title = "__init__(self)"
 # for smart copyright line, leave this blank and check [params.copyright]
-copyright = ""
+copyright = "__init__(self)"
 
 theme = "minimo"
 
-disqusShortname = ""
 googleAnalytics = ""
 
 Paginate = 5
@@ -59,46 +58,18 @@ homepage = ["recent_posts"]
 sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
 footer = ["social_menu"]
 
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
-
-[params.opengraph.twitter]
-page = "" # Twitter page username
-
 [params.seo]
 # Title Separator: - – — · • * ⋆ | ~ « » < >
 titleSeparator = "•"
 
 [params.social]
-#codepen = "MunifTanjim"
 email = "info@dunderin.it"
-#facebook = "MunifTanjim"
 github = "wpeterw"
 #gitlab = "MunifTanjim"
-#instagram = "MunifTanjim"
 linkedin = "peterwieringa"
-#twitter = "MunifTanjim"
-#telegram = "MunifTanjim"
-#google_scholar = "qc6CJjYAAAAJ"
-#youtube = "UCT-U0rNerYxItGcuoPX-WYA"
 
 [params.comments]
 enable = true
-
-# Isso: https://posativ.org/isso/
-[params.comments.isso]
-enable = false
-scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
-dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
-
-[params.comments.staticman]
-enable = false
-apiEndpoint = "https://api.staticman.net/v2/entry"
-maxDepth = 2
-username = "MunifTanjim"
-repository = "minimo"
 
 # Utterances: https://utteranc.es
 [params.comments.utterances]
@@ -108,16 +79,11 @@ label = ""
 theme = "github-light"
 
 [params.comments.utterances.github]
-username = "MunifTanjim"
-repository = "minimo"
+username = "wpeterw"
+repository = "__init__"
 
 [params.search]
 client = "fuse" # algolia / fuse / lunr
-
-[params.search.algolia]
-appId = ""
-indexName = ""
-searchApiKey = ""
 
 [taxonomies]
 author = "authors"
@@ -143,3 +109,17 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
