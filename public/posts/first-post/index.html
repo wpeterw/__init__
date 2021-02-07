@@ -5,21 +5,21 @@
 <meta name='description' content='categories:
  Python Azure Devops date: &ldquo;2021-02-07&rdquo; description: How to use Poetry with Azure DevOps slug: python_poetry_with_azure_devops tags: python poetry azure devops title: Poetry and Azure DevOps private package repository  Recently I have switched from Pip to Poetry. I use Poetry for both dependency-management and packaging.
 How to setup Poetry with a private Azure repository ?
-Microsoft instructions to connect to a private package feed: python -m pip install --upgrade pip pip install keyring artifacts-keyring'>
+Microsoft instructions to connect to a private package feed (using pip): python -m pip install --upgrade pip pip install keyring artifacts-keyring'>
 <meta name='theme-color' content='#ffcd00'>
 
-<meta property='og:title' content='Poetry and Azure DevOps • __init__(self)'>
+<meta property='og:title' content=' • __init__(self)'>
 <meta property='og:description' content='categories:
  Python Azure Devops date: &ldquo;2021-02-07&rdquo; description: How to use Poetry with Azure DevOps slug: python_poetry_with_azure_devops tags: python poetry azure devops title: Poetry and Azure DevOps private package repository  Recently I have switched from Pip to Poetry. I use Poetry for both dependency-management and packaging.
 How to setup Poetry with a private Azure repository ?
-Microsoft instructions to connect to a private package feed: python -m pip install --upgrade pip pip install keyring artifacts-keyring'>
+Microsoft instructions to connect to a private package feed (using pip): python -m pip install --upgrade pip pip install keyring artifacts-keyring'>
 <meta property='og:url' content='http://www.dunderin.it/posts/first-post/'>
 <meta property='og:site_name' content='__init__(self)'>
-<meta property='og:type' content='article'><meta property='article:section' content='posts'><meta property='article:tag' content='Python'><meta property='article:tag' content='Azure DevOps'><meta property='article:published_time' content='2021-02-07T14:45:10&#43;01:00'/><meta property='article:modified_time' content='2021-02-07T14:45:10&#43;01:00'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='posts'><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.80.0" />
 
-  <title>Poetry and Azure DevOps • __init__(self)</title>
+  <title> • __init__(self)</title>
   <link rel='canonical' href='http://www.dunderin.it/posts/first-post/'>
   
   
@@ -74,11 +74,7 @@ Microsoft instructions to connect to a private package feed: python -m pip insta
   </header>
 
   <div class='container list-container'>
-  <ul class='list taxonomy-cloud'><li>
-        <a href='/tags/azure-devops/' style='font-size:1em'>Azure DevOps</a>
-      </li><li>
-        <a href='/tags/python/' style='font-size:1em'>Python</a>
-      </li></ul>
+  <ul class='list taxonomy-cloud'><span>Not a single Tag!</span></ul>
 </div>
 
 
@@ -120,7 +116,7 @@ Microsoft instructions to connect to a private package feed: python -m pip insta
     <style>.widget-breadcrumbs li:after{content:'\2f '}</style>
   <section class='widget widget-breadcrumbs sep-after'>
     <nav id='breadcrumbs'>
-      <ol><li><a href='/'>__init__(self)</a></li><li><a href='/posts/'>Posts</a></li><li><span>Poetry and Azure DevOps</span></li></ol>
+      <ol><li><a href='/'>__init__(self)</a></li><li><a href='/posts/'>Posts</a></li><li><span></span></li></ol>
     </nav>
   </section></div>
       </div>
@@ -139,7 +135,7 @@ Microsoft instructions to connect to a private package feed: python -m pip insta
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Poetry and Azure DevOps</h1>
+      <h1 class='title'></h1>
       
 
     </div>
@@ -154,7 +150,7 @@ Microsoft instructions to connect to a private package feed: python -m pip insta
 
 </svg>
 <span class='screen-reader-text'>Posted on </span>
-  <time class='entry-date' datetime='2021-02-07T14:45:10&#43;01:00'>2021, Feb 07</time>
+  <time class='entry-date' datetime='0001-01-01T00:00:00Z'>0001, Jan 01</time>
 </span>
 
   
@@ -195,24 +191,21 @@ title: Poetry and Azure DevOps private package repository</li>
 </ul>
 <p>Recently I have switched from Pip to Poetry. I use Poetry for both dependency-management and packaging.</p>
 <p>How to setup Poetry with a private Azure repository ?</p>
-<p>Microsoft instructions to connect to a private package feed:
+<p>Microsoft instructions to connect to a private package feed (using pip):
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">python -m pip install --upgrade pip
 
 pip install keyring artifacts-keyring</code></pre></div></p>
+<p>Configure the repository in pip.ini:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">[</span>global<span style="color:#f92672">]</span>
+extra-index-url<span style="color:#f92672">=</span>https://pkgs.dev.azure.com/your_organisation_name/_packaging/Python/pypi/simple/</code></pre></div></p>
+<p>Now when you do a pip install for a package in your local repository you will be presented with an authentication url where you enter the authentication-code.
+Now Microsoft&rsquo;s artifacts-keyring is used to find the credentials.</p>
 
 </div>
 
   
 <footer class='entry-footer'>
-  <div class='container sep-before'><div class='tags'><svg class='icon' xmlns='http://www.w3.org/2000/svg' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-    
-    
-  <path d="M20.59,13.41l-7.17,7.17a2,2,0,0,1-2.83,0L2,12V2H12l8.59,8.59A2,2,0,0,1,20.59,13.41Z"/>
-  <line x1="7" y1="7" x2="7" y2="7"/>
-
-</svg>
-<span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/python/'>Python</a>, <a class='tag' href='/tags/azure-devops/'>Azure DevOps</a></div>
-
+  <div class='container sep-before'>
   </div>
 </footer>
 

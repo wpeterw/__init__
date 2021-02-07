@@ -3,33 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.dunderin.it/</loc>
-    <lastmod>2021-02-07T14:45:10+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.dunderin.it/tags/azure-devops/</loc>
-    <lastmod>2021-02-07T14:45:10+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.dunderin.it/posts/first-post/</loc>
-    <lastmod>2021-02-07T14:45:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dunderin.it/posts/</loc>
-    <lastmod>2021-02-07T14:45:10+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.dunderin.it/tags/python/</loc>
-    <lastmod>2021-02-07T14:45:10+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.dunderin.it/tags/</loc>
-    <lastmod>2021-02-07T14:45:10+01:00</lastmod>
+    <loc>http://www.dunderin.it/</loc>
   </url>
   
   <url>
@@ -38,6 +16,14 @@
   
   <url>
     <loc>http://www.dunderin.it/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.dunderin.it/posts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.dunderin.it/tags/</loc>
   </url>
   
 </urlset>
