@@ -1,15 +1,12 @@
 ---
-categories:
-- Python
-- Azure Devops
+title: "Poetry and Azure DevOps private package repository"
+description: "How to use Poetry with Azure DevOps"
 date: "2021-02-07"
-description: How to use Poetry with Azure DevOps
-slug: python_poetry_with_azure_devops
+categories:
 tags:
-- python
-- poetry
-- azure devops
-title: Poetry and Azure DevOps private package repository
+  - "python"
+  - "poetry"
+  - "azure devops"
 ---
 
 Recently I have switched from Pip to Poetry. I use Poetry for both dependency-management and packaging.

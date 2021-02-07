@@ -8,17 +8,7 @@
   </url>
   
   <url>
-    <loc>http://www.dunderin.it/categories/azure-devops/</loc>
-    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.dunderin.it/tags/azure-devops/</loc>
-    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.dunderin.it/categories/</loc>
     <lastmod>2021-02-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,17 +18,12 @@
   </url>
   
   <url>
-    <loc>http://www.dunderin.it/posts/python_poetry_with_azure_devops/</loc>
+    <loc>http://www.dunderin.it/posts/first-post/</loc>
     <lastmod>2021-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.dunderin.it/posts/</loc>
-    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.dunderin.it/categories/python/</loc>
     <lastmod>2021-02-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -54,6 +39,10 @@
   
   <url>
     <loc>http://www.dunderin.it/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>http://www.dunderin.it/categories/</loc>
   </url>
   
 </urlset>

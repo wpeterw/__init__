@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 07 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.dunderin.it/tags/azure-devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Poetry and Azure DevOps private package repository</title>
-      <link>http://www.dunderin.it/posts/python_poetry_with_azure_devops/</link>
+      <link>http://www.dunderin.it/posts/first-post/</link>
       <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://www.dunderin.it/posts/python_poetry_with_azure_devops/</guid>
+      <guid>http://www.dunderin.it/posts/first-post/</guid>
       <description>Recently I have switched from Pip to Poetry. I use Poetry for both dependency-management and packaging.
 How to setup Poetry with a private Azure repository ?
 Microsoft instructions to connect to a private package feed (using pip): python -m pip install --upgrade pip pip install keyring artifacts-keyring
