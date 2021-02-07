@@ -3,12 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.dunderin.it/first_post/</loc>
-    <priority>0</priority>
+    <loc>http://www.dunderin.it/</loc>
+    <lastmod>2018-03-03T13:23:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dunderin.it/</loc>
+    <loc>http://www.dunderin.it/posts/first-post/</loc>
+    <lastmod>2018-03-03T13:23:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.dunderin.it/tags/getting-started/</loc>
+    <lastmod>2018-03-03T13:23:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.dunderin.it/posts/</loc>
+    <lastmod>2018-03-03T13:23:10+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.dunderin.it/tags/</loc>
+    <lastmod>2018-03-03T13:23:10+01:00</lastmod>
   </url>
   
   <url>
@@ -17,10 +33,6 @@
   
   <url>
     <loc>http://www.dunderin.it/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.dunderin.it/tags/</loc>
   </url>
   
 </urlset>
