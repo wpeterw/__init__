@@ -5,17 +5,19 @@
     <link>http://www.dunderin.it/</link>
     <description>Recent content on __init__(self)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>__init__(self)</copyright><atom:link href="http://www.dunderin.it/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>__init__(self)</copyright>
+    <lastBuildDate>Sun, 07 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://www.dunderin.it/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>http://www.dunderin.it/posts/first-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Poetry and Azure DevOps private package repository</title>
+      <link>http://www.dunderin.it/posts/python_poetry_with_azure_devops/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://www.dunderin.it/posts/first-post/</guid>
-      <description>categories:
- Python Azure Devops date: &amp;ldquo;2021-02-07&amp;rdquo; description: How to use Poetry with Azure DevOps slug: python_poetry_with_azure_devops tags: python poetry azure devops title: Poetry and Azure DevOps private package repository  Recently I have switched from Pip to Poetry. I use Poetry for both dependency-management and packaging.
+      <guid>http://www.dunderin.it/posts/python_poetry_with_azure_devops/</guid>
+      <description>Recently I have switched from Pip to Poetry. I use Poetry for both dependency-management and packaging.
 How to setup Poetry with a private Azure repository ?
-Microsoft instructions to connect to a private package feed (using pip): python -m pip install --upgrade pip pip install keyring artifacts-keyring</description>
+Microsoft instructions to connect to a private package feed (using pip): python -m pip install --upgrade pip pip install keyring artifacts-keyring
+Configure the repository in pip.ini: [global] extra-index-url=https://pkgs.dev.azure.com/your_organisation_name/_packaging/Python/pypi/simple/
+Now when you do a pip install for a package in your local repository you will be presented with an authentication url where you enter the authentication-code.</description>
     </item>
     
   </channel>

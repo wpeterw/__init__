@@ -1,3 +1,4 @@
+---
 categories:
 - Python
 - Azure Devops
@@ -9,6 +10,7 @@ tags:
 - poetry
 - azure devops
 title: Poetry and Azure DevOps private package repository
+---
 
 Recently I have switched from Pip to Poetry. I use Poetry for both dependency-management and packaging.
 

@@ -3,27 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.dunderin.it/posts/first-post/</loc>
-  </url>
-  
-  <url>
     <loc>http://www.dunderin.it/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.dunderin.it/authors/</loc>
+    <loc>http://www.dunderin.it/categories/azure-devops/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.dunderin.it/tags/azure-devops/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.dunderin.it/categories/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.dunderin.it/tags/poetry/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.dunderin.it/posts/python_poetry_with_azure_devops/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.dunderin.it/posts/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.dunderin.it/categories/python/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.dunderin.it/tags/python/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.dunderin.it/tags/</loc>
+    <lastmod>2021-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.dunderin.it/authors/</loc>
   </url>
   
 </urlset>
