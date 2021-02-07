@@ -85,7 +85,7 @@ linkedin = "muniftanjim"
 #youtube = "UCT-U0rNerYxItGcuoPX-WYA"
 
 [params.comments]
-enable = true
+enable = false
 
 # Isso: https://posativ.org/isso/
 [params.comments.isso]
