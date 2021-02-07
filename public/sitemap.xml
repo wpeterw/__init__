@@ -3,24 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.example.com/first_post/</loc>
+    <loc>http://www.dunderin.it/first_post/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.example.com/</loc>
+    <loc>http://www.dunderin.it/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/authors/</loc>
+    <loc>http://www.dunderin.it/authors/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/categories/</loc>
+    <loc>http://www.dunderin.it/categories/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/</loc>
+    <loc>http://www.dunderin.it/tags/</loc>
   </url>
   
 </urlset>

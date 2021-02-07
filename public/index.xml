@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>__init__(self)</title>
-    <link>http://www.example.com/</link>
+    <link>http://www.dunderin.it/</link>
     <description>Recent content on __init__(self)</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://www.dunderin.it/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://www.example.com/first_post/</link>
+      <link>http://www.dunderin.it/first_post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/first_post/</guid>
+      <guid>http://www.dunderin.it/first_post/</guid>
       <description>Test</description>
     </item>
     

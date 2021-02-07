@@ -1,4 +1,4 @@
-baseURL = "http://www.example.com"
+baseURL = "http://www.dunderin.it"
 title = "__init__(self)"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
@@ -75,17 +75,17 @@ titleSeparator = "•"
 #codepen = "MunifTanjim"
 email = "info@dunderin.it"
 #facebook = "MunifTanjim"
-github = "MunifTanjim"
+github = "wpeterw"
 #gitlab = "MunifTanjim"
 #instagram = "MunifTanjim"
-linkedin = "muniftanjim"
+linkedin = "peterwieringa"
 #twitter = "MunifTanjim"
 #telegram = "MunifTanjim"
 #google_scholar = "qc6CJjYAAAAJ"
 #youtube = "UCT-U0rNerYxItGcuoPX-WYA"
 
 [params.comments]
-enable = false
+enable = true
 
 # Isso: https://posativ.org/isso/
 [params.comments.isso]
@@ -94,7 +94,7 @@ scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [params.comments.staticman]
-enable = true
+enable = false
 apiEndpoint = "https://api.staticman.net/v2/entry"
 maxDepth = 2
 username = "MunifTanjim"
@@ -102,7 +102,7 @@ repository = "minimo"
 
 # Utterances: https://utteranc.es
 [params.comments.utterances]
-enable = false
+enable = true
 issueTerm = "pathname" # pathname / url / title / og:title / <string>
 label = ""
 theme = "github-light"
